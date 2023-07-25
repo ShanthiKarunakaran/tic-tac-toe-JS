@@ -1,6 +1,7 @@
 # tic-tac-toe-JS
-- Live deployment at git@github.com:ShanthiKarunakaran/tic-tac-toe-JS.git
-- 
+- Live deployment https://tic-tac-toe-cjvopiu4w-shanthikarunakaran.vercel.app/?vercelToolbarCode=qMHFxbfXh_I31UW
+
+
 
 ## tic-tac-toe using Javascript
 
