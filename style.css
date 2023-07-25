@@ -1,0 +1,49 @@
+#gameboard {
+  width: 300px;
+  height: 300px;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid ;
+}
+
+.circle{
+ 
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: 15px solid blue;
+}
+
+.cross {
+  height: 90px;
+  width: 90px;
+  position: relative;
+}
+
+.cross:before, .cross:after {
+  content: "";
+  position: absolute;   
+  background-color: red; 
+  transform: rotate(50deg);
+}
+
+.cross:before {
+  left: 50%;
+  margin-left: -15%;
+  width: 30%;
+  height: 100%;
+}
+
+.cross:after {
+  top: 50%;
+  height: 30%;
+  margin-top: -15%;
+  width: 100%;
+}
